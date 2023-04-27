@@ -8,10 +8,17 @@ export const LayoutWrapper = styled.main`
   align-items: center;
   background-image: linear-gradient(
     to bottom,
-    #040609,
-    #0b0e10,
-    #111414,
-    #171917,
-    #1d1d1b
+    #3f30a4,
+    #343eaa,
+    #2949af,
+    #1f54b3,
+    #1a5eb5,
+    #2162b4,
+    #2867b3,
+    #306bb2,
+    #3a6cae,
+    #426eab,
+    #496fa7,
+    #4f70a3
   );
 `;

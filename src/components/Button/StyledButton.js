@@ -9,6 +9,7 @@ export const ButtonStyled = styled.button`
   text-transform: uppercase;
   font-weight: 400;
   cursor: pointer;
+  margin-top: 15px;
 
   &:hover {
     opacity: 95%;

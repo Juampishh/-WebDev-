@@ -7,7 +7,7 @@ export const StyledHero = styled.section`
   width: 100%;
   color: white;
   gap: 30px;
-  margin: 0 auto;
+  padding: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   h1 {
     margin-bottom: 2rem;
@@ -22,17 +22,24 @@ export const HeroTextContainerStyled = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 15px;
+  gap: 5px;
   width: 50%;
+  h1 span {
+    font-size: 5rem;
+    color: #2e78b9;
+  }
   h1 {
-    font-size: 4rem;
-    margin: 10px 0%;
+    color: #c2c2c2;
+    font-size: 3.5rem;
+    margin: 10px 0;
   }
   h2 {
-    font-size: 2.5rem;
+    color: #c2c2c2;
+    font-size: 2rem;
     margin: 10px 0;
   }
   p {
+    color: #c2c2c2;
     font-size: 1.2rem;
   }
 
@@ -53,4 +60,14 @@ export const HeroImageContainer = styled.div`
   @media (max-width: 1000px) {
     display: none;
   }
+`;
+
+export const ArrowContainer = styled.div`
+  font-size: 35px;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background-color: transparent;
+  color: #fff;
 `;
