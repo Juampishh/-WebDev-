@@ -5,4 +5,5 @@ export const IconStyled = styled.img`
 	height: 70px;
 	border: 1px solid #fff;
 	border-radius: 10px;
+	cursor: pointer;
 `;

@@ -9,4 +9,5 @@ export const HeaderContainerStyled = styled.header`
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
+	padding: 0 20px;
 `;
