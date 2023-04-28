@@ -3,7 +3,7 @@ import React from "react";
 import { IconStyled } from "./iconStyled.js";
 
 function Icon(props) {
-	return <IconStyled />;
+	return <IconStyled></IconStyled>;
 }
 
 export default Icon;
