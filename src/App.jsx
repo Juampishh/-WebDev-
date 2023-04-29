@@ -4,21 +4,23 @@ import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header.jsx";
 import Icon from "./components/Header/icon.jsx";
 import Navbar from "./components/Header/Navbar.jsx";
+import About from "./components/About/About";
 
 function App() {
-	// const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-	return (
-		<>
-			<Header>
-				<Icon></Icon>
-				<Navbar />
-			</Header>
-			<Layout>
-				<Hero />
-			</Layout>
-		</>
-	);
+  return (
+    <>
+      <Header>
+        <Icon></Icon>
+        <Navbar />
+      </Header>
+      <Layout>
+        <Hero />
+        <About />
+      </Layout>
+    </>
+  );
 }
 
 export default App;

@@ -9,7 +9,6 @@ function Navbar() {
   const [CardStyle, setCardStyle] = useState({});
 
   //Funcion para controlar los estados del boton mas informacion
-
   const handleClick = () => {
     // Si el estado "hasClicked" es verdadero, significa que el elemento ya ha sido clickeado y debe ser mostrado
     if (hasClicked) {
