@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const ContainerStyledPrice = styled.div`
   width: 100%;
   height: 73vh;
-  background-color: #306bb2;
+  background-color: transparent;
   display: flex;
 
   margin-top: 50px;
@@ -16,6 +16,7 @@ export const TitleContainerStyled = styled.div`
   margin-top: 50px;
   color: #fff;
   h1 {
+    color: #f9d5f1;
     letter-spacing: 2px;
     font-size: 3.5rem;
   }
@@ -23,7 +24,7 @@ export const TitleContainerStyled = styled.div`
 
 export const CardContainerStyledPrice = styled.div`
   width: 97%;
-  background-color: #343eaa;
+  background-color: #1a60b4;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   display: flex;
@@ -32,7 +33,7 @@ export const CardContainerStyledPrice = styled.div`
 `;
 
 export const CardStyledPrice = styled.div`
-  background-color: #343eaa;
+  background-color: #1f85d0;
   border: 2px solid #306bb2;
   border-radius: 10px;
   padding: 20px;
@@ -46,9 +47,12 @@ export const CardStyledPrice = styled.div`
   gap: 15px;
   color: white;
   h3 {
+    color: #8adde5;
     font-size: 2rem;
+    text-decoration: underline;
   }
   h5 {
+    color: #fffbf3;
     font-size: 1.1rem;
     letter-spacing: 1px;
   }
