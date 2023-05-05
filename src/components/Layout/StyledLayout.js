@@ -6,7 +6,7 @@ export const LayoutWrapper = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #3f30a4,
     #343eaa,
@@ -20,5 +20,5 @@ export const LayoutWrapper = styled.main`
     #426eab,
     #496fa7,
     #4f70a3
-  );
+  ); */
 `;

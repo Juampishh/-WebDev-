@@ -1,28 +1,18 @@
 import styled from "styled-components";
 export const StyledAboutContainer = styled.section`
-  height: 50vh;
+  height: 60vh;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    #496fa7 #3f30a4,
-    #343eaa,
-    #2949af,
-    #1f54b3,
-    #1a5eb5,
-    #2162b4,
-    #2867b3,
-    #3a6cae,
-    #306bb2,
-    #426eab
-  );
 `;
 
 export const AboutStyled = styled.div`
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 70px;
   width: 90%;
   display: flex;
   justify-content: space-between;
   height: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  padding: 0 20px;
 `;
 
 export const TextAboutStyled = styled.div`
