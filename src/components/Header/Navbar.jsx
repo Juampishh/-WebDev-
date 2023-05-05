@@ -46,8 +46,10 @@ function Navbar() {
 						</li>
 						<li>
 							<a onClick={handleClick} href="#">
-								Información <i className="fa-solid fa-chevron-down"></i>
+								Información{" "}
+								<i className="fa-solid fa-chevron-down icon-one"></i>
 							</a>
+							<i class="fa-solid fa-chevron-right icon-two"></i>
 						</li>
 						<li>
 							<a href="#">Nuestro trabajo</a>

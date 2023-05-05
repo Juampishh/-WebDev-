@@ -21,6 +21,7 @@ export const NavbarStyled = styled.nav`
 			font-weight: 500;
 			background-color: rgba(0, 0, 0, 0.2);
 			text-decoration: none;
+			text-transform: capitalize;
 			padding: 5px;
 			border-radius: 5px;
 			transition: all 0.3s ease;
@@ -29,6 +30,7 @@ export const NavbarStyled = styled.nav`
 			background-color: rgba(0, 0, 0, 0.4);
 		}
 		& ul i {
+			/* margin-left: 2px; */
 			font-size: 0.7rem;
 		}
 		@media (max-width: 1000px) {
@@ -41,10 +43,14 @@ export const NavbarStyled = styled.nav`
 			display: none;
 		}
 	}
+	.icon-two {
+		display: none;
+	}
 	@media (max-width: 1000px) {
 		.links.active {
 			display: flex;
 			position: fixed;
+			justify-content: center;
 			width: 100%;
 			height: 100vh;
 			top: 0;
@@ -70,10 +76,55 @@ export const NavbarStyled = styled.nav`
 			display: flex;
 			flex-direction: column;
 			justify-content: space-evenly;
-			align-items: center;
+			align-items: flex-start;
+			margin-left: 30px;
 			text-align: center;
 			height: 80%;
 			width: 100%;
+		}
+		.links.active ul li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			gap: 5px;
+		}
+		.links.active ul li i {
+			align-items: center;
+			justify-content: center;
+			font-size: 1.2rem;
+			color: #fff;
+		}
+		.links.active ul li a {
+			font-size: 1.5rem;
+		}
+		.icon-one {
+			display: none;
+		}
+		.icon-two {
+			display: flex;
+		}
+	}
+
+	@media (max-width: 800px) {
+		.links.active ul {
+			flex-direction: row;
+			margin-top: 15px;
+		}
+		.links.active ul li a {
+			font-size: 1.2rem;
+		}
+		.icon-one {
+			display: flex;
+		}
+		.icon-two {
+			display: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.links.active ul li a {
+			font-size: 1rem;
 		}
 	}
 `;
@@ -114,5 +165,28 @@ export const NavbarCardsStyled = styled.div`
 		color: #ffff;
 		font-size: 1.3rem;
 		font-weight: 500;
+	}
+	& ul li a:hover {
+		opacity: 0.8;
+	}
+
+	@media (max-width: 1000px) {
+		height: 250px;
+		width: 60%;
+		left: 25%;
+		top: 28%;
+		& ul {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+	}
+
+	@media (max-width: 800px) {
+		left: 16%;
+		top: 22%;
+	}
+
+	@media (max-width: 500px) {
+		height: 400px;
 	}
 `;
