@@ -559,6 +559,7 @@ export const ArrowContainer = styled.div`
   background-color: transparent;
   color: #fff;
   @media (max-width: 768px) {
-    display: none;
+    color: #000;
+    top: 250px;
   }
 `;

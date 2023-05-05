@@ -183,7 +183,10 @@ export const TitleContainerStyled = styled.div`
     font-size: 3.5rem;
   }
   @media (max-width: 768px) {
-    display: none;
+    margin: 0;
+    h1 {
+      font-size: 2rem;
+    }
   }
 `;
 
