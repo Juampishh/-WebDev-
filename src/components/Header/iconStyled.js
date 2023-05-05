@@ -8,4 +8,7 @@ export const IconStyled = styled.img`
   border: 1px solid #fff;
   border-radius: 15px;
   cursor: pointer;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;

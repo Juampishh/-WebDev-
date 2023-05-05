@@ -4,7 +4,7 @@ export const StyledPagosContainer = styled.div`
   width: 100%;
   height: 50vh;
   /* border-top: 1px solid #fff; */
-  margin-top: 320px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -17,6 +17,11 @@ export const StyledPagosContainer = styled.div`
     border-radius: 10px;
     padding: 10px;
   }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 45px;
+    }
+  }
 `;
 
 export const CardContainerPagos = styled.div`
@@ -28,6 +33,9 @@ export const CardContainerPagos = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardStyledPagos = styled.div`

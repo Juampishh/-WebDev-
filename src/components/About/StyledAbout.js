@@ -13,6 +13,9 @@ export const AboutStyled = styled.div`
   height: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   padding: 0 20px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const TextAboutStyled = styled.div`

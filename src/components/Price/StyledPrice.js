@@ -137,6 +137,38 @@ export const ContainerStyledPrice = styled.div`
     width: 0.9rem;
     fill: currentColor;
   }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .plan-card {
+      width: 80%;
+    }
+    .plan-card h2 {
+      font-size: 30px;
+    }
+    .plan-card h2 span {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+    .etiquet-price {
+      width: 140%;
+    }
+    .etiquet-price p::after {
+      display: none;
+    }
+    .benefits-list ul {
+      font-size: 15px;
+    }
+    .button-get-plan a {
+      width: 100%;
+      height: 50px;
+    }
+  }
 `;
 export const TitleContainerStyled = styled.div`
   width: 100%;
@@ -149,6 +181,9 @@ export const TitleContainerStyled = styled.div`
     color: #f9d5f1;
     letter-spacing: 2px;
     font-size: 3.5rem;
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 
