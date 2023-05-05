@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import {
 	ButtonSubmitContainerStyled,
@@ -29,7 +30,7 @@ function Form() {
 				<input type="text" name="" id="" placeholder="Me interesó..." />
 			</MessageContainer>
 			<ButtonSubmitContainerStyled>
-				<button>Enviar formulario</button>
+				<ButtonStyled>Enviar formulario</ButtonStyled>
 			</ButtonSubmitContainerStyled>
 		</StyledForm>
 	);
