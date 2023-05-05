@@ -42,9 +42,7 @@ function Navbar() {
 				<div className={`links ${open ? "active" : ""}`}>
 					<ul>
 						<li>
-							<a href="#">
-								Home <i className="fa-solid fa-chevron-down"></i>
-							</a>
+							<a href="#">Home</a>
 						</li>
 						<li>
 							<a onClick={handleClick} href="#">
@@ -52,9 +50,7 @@ function Navbar() {
 							</a>
 						</li>
 						<li>
-							<a href="#">
-								Nuestro trabajo <i className="fa-solid fa-chevron-down"></i>
-							</a>
+							<a href="#">Nuestro trabajo</a>
 						</li>
 					</ul>
 				</div>

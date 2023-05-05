@@ -89,7 +89,7 @@ export const NavbarCardsStyled = styled.div`
 	text-align: center;
 	position: absolute;
 	z-index: 4;
-	right: 8%;
+	right: 6%;
 	top: 14%;
 	border-radius: 10px;
 	color: #fff;
