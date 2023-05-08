@@ -5,6 +5,7 @@ import {
   HeroImageContainer,
   ArrowContainer,
   AnimatedStyledHero,
+  ButtonContainer,
 } from "./HeroStyled";
 import Button from "../Button/Button";
 
@@ -23,7 +24,10 @@ function Hero() {
           </button>
           <h1>Tu página web, a un click de distancia.</h1>
 
-          <Button>Saber mas</Button>
+          <ButtonContainer>
+            <Button>Conocer costos</Button>
+            <Button>Ver paginas webs</Button>
+          </ButtonContainer>
         </HeroTextContainerStyled>
         <HeroImageContainer className="fadeIn">
           <img
@@ -62,7 +66,9 @@ function Hero() {
         </div>
       </StyledHero>
       <ArrowContainer className="pulse">
-        <i className="fa-solid fa-arrow-down"></i>
+        <a href="#price">
+          <i className="fa-solid fa-arrow-down"></i>
+        </a>
       </ArrowContainer>
     </>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AboutStyled,
+  BoxStyledContainer,
   ImgContainerAboutStyled,
   StyledAboutContainer,
   TextAboutStyled,
@@ -11,6 +12,7 @@ function About() {
     <StyledAboutContainer>
       <AboutStyled>
         <ImgContainerAboutStyled>
+          <h1>Que ofrecemos</h1>
           <img
             className="fadeIn"
             src="https://conectemos.com/wp-content/uploads/2022/04/servidor-web.png"
@@ -18,17 +20,42 @@ function About() {
           />
         </ImgContainerAboutStyled>
         <TextAboutStyled>
-          <h1>¿Que ofrecemos?</h1>
-          <p>
-            Nuestro servicio de venta de páginas web es una inversión en tu
-            negocio y en su presencia en línea. No solo te proporcionaremos un
-            diseño profesional y atractivo, sino también una experiencia de
-            usuario fácil de usar y una garantía de satisfacción del cliente del
-            100%. Trabajar con nosotros es la elección correcta para llevar tu
-            negocio al siguiente nivel en línea. ¡Contáctanos hoy mismo para
-            obtener más información y comenzar a trabajar en tu nueva página
-            web!
-          </p>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-gauge-high"></i>
+            </h1>
+            <p>Tu pagina web en el menor tiempo posible</p>
+          </BoxStyledContainer>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-sack-dollar"></i>
+            </h1>
+            <p>Precios accesibles</p>
+          </BoxStyledContainer>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-arrow-trend-up"></i>
+            </h1>
+            <p>Incrementa tus ventas en un 100%</p>
+          </BoxStyledContainer>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-user"></i>
+            </h1>
+            <p>Atencion personalizada las 24hs</p>
+          </BoxStyledContainer>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-layer-group"></i>
+            </h1>
+            <p>Diseños modernos y funcionales</p>
+          </BoxStyledContainer>
+          <BoxStyledContainer>
+            <h1>
+              <i class="fa-solid fa-crop-simple"></i>
+            </h1>
+            <p>Diseño adaptable a cualquier dispositivo</p>
+          </BoxStyledContainer>
         </TextAboutStyled>
       </AboutStyled>
     </StyledAboutContainer>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IconStyled = styled.img`
-  width: 250px;
+  width: 200px;
   height: auto;
 
   background-color: transparent;

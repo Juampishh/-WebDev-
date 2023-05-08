@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const StyledPagosContainer = styled.div`
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   /* border-top: 1px solid #fff; */
-  margin-top: 150px;
+  margin-top: 190px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -12,11 +12,7 @@ export const StyledPagosContainer = styled.div`
   font-size: 28px;
   justify-content: center;
   align-items: center;
-  h1 {
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
-    border-radius: 10px;
-    padding: 10px;
-  }
+
   @media (max-width: 768px) {
     h1 {
       font-size: 45px;
@@ -37,20 +33,26 @@ export const CardContainerPagos = styled.div`
     flex-direction: column;
   }
 `;
+export const CardContent = styled.div`
+  width: 70%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+
+  font-size: 20px;
+  h1 {
+    font-size: 90px;
+  }
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+`;
 
 export const CardStyledPagos = styled.div`
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  color: #fff;
-  width: 30%;
-  height: 40%;
-  border-radius: 10px;
-  h2 {
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
+  padding: 20px;
+  height: 100%;
 `;
