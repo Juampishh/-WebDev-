@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import Layout from "./components/Layout/Layout";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header.jsx";
@@ -10,7 +9,6 @@ import Form from "./components/Form/Form";
 import Pagos from "./components/Pagos/Pagos";
 import Footer from "./components/Footer/Footer";
 function App() {
-  // const [count, setCount] = useState(0);
 
   return (
     <>
