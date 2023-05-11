@@ -141,7 +141,7 @@ export const NavbarCardsStyled = styled.div`
   position: absolute;
   z-index: 4;
   right: 6%;
-  top: 14%;
+  top: 80%;
   border-radius: 10px;
   color: #fff;
   padding: 20px;
@@ -183,7 +183,7 @@ export const NavbarCardsStyled = styled.div`
 
   @media (max-width: 800px) {
     left: 16%;
-    top: 22%;
+    top: 140%;
   }
 
   @media (max-width: 500px) {

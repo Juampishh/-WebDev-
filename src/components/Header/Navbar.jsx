@@ -11,8 +11,8 @@ function Navbar() {
 	const [open, setOpen] = useState(false);
 	//Creamos la función para controlar el estado del menu
 	const openMenu = () => {
-		// Si el estado "open" es verdadero, significa que el menu está abierto y debe ser cerrado
-		// Por lo tanto cambiamos el estado a falso
+		// Si el estado no está "open" es falso, significa que el menu está cerrado y puede ser abierto
+		// Por lo tanto cambiamos el estado a Verdadero.
 		setOpen(!open);
 	};
 
