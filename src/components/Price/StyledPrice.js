@@ -177,7 +177,10 @@ export const ContainerStyledPrice = styled.div`
   }
   @media (max-width: 768px) {
     .plan-card {
-      height: 450px;
+      height: 500px;
+    }
+    li {
+      font-size: 14px;
     }
   }
 `;

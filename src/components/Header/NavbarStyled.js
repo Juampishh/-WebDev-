@@ -124,7 +124,7 @@ export const NavbarStyled = styled.nav`
 
   @media (max-width: 500px) {
     .links.active ul li a {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 `;

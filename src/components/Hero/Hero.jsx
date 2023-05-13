@@ -26,7 +26,12 @@ function Hero() {
 
           <ButtonContainer>
             <Button>Conocer costos</Button>
-            <Button>Ver paginas webs</Button>
+            <Button>
+              <a href="https://page-crafter-blog.vercel.app/">
+                {" "}
+                Ver paginas webs
+              </a>
+            </Button>
           </ButtonContainer>
         </HeroTextContainerStyled>
         <HeroImageContainer className="fadeIn">
