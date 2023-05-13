@@ -9,7 +9,6 @@ import Form from "./components/Form/Form";
 import Pagos from "./components/Pagos/Pagos";
 import Footer from "./components/Footer/Footer";
 function App() {
-
   return (
     <>
       <Header>

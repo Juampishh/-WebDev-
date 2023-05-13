@@ -12,7 +12,7 @@ function About() {
     <StyledAboutContainer>
       <AboutStyled>
         <ImgContainerAboutStyled>
-          <h1>Que ofrecemos</h1>
+          <h1 className="h1-about">Que ofrecemos</h1>
           <img
             className="fadeIn"
             src="https://conectemos.com/wp-content/uploads/2022/04/servidor-web.png"

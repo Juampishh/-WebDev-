@@ -5,12 +5,13 @@ import {
   CardStyledPriceDiscount,
   ContainerStyledPrice,
   TitleContainerStyled,
+  sectionAboutContainerStyled,
 } from "./StyledPrice";
 import { ButtonStyled } from "../Button/StyledButton";
 
 function Price() {
   return (
-    <>
+    <sectionAboutContainerStyled>
       <TitleContainerStyled id="price">
         <h1>Costo del servicio</h1>
       </TitleContainerStyled>
@@ -200,7 +201,7 @@ function Price() {
           </div>
         </div>
       </ContainerStyledPrice>
-    </>
+    </sectionAboutContainerStyled>
   );
 }
 

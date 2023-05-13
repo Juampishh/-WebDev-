@@ -16,5 +16,8 @@ export const ButtonStyled = styled.button`
 
   @media (max-width: 768px) {
     margin-top: -120px;
+    width: 130px;
+    height: 70px;
+    border-radius: 5px;
   }
 `;

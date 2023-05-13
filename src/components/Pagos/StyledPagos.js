@@ -4,7 +4,7 @@ export const StyledPagosContainer = styled.div`
   width: 100%;
   height: 30vh;
   /* border-top: 1px solid #fff; */
-  margin-top: 190px;
+
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -14,6 +14,7 @@ export const StyledPagosContainer = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
+    height: 100vh;
     h1 {
       font-size: 45px;
     }
